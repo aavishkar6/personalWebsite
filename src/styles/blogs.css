@@ -1,0 +1,19 @@
+
+.main-div {
+    padding : 35px 35px 35px 35px;
+    font-family: Roboto;
+    font-weight: 600;
+} 
+
+.main-div h1 {
+    margin-bottom : 70px;
+    
+}
+
+.blog-title {
+    margin-bottom : 25px;
+    font-size: 30px;
+    background-color: rgb(17, 16, 16);
+    color : white;
+    border : 1px solid white;
+}

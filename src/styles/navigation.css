@@ -1,0 +1,26 @@
+
+.navbar {
+    position : relative;
+    padding : 30px;
+    font-size: 35px;
+    color : white;
+}
+
+.me-auto {
+    margin-left : 50px;
+}
+
+.nav {
+    padding : 10px;
+    margin : 25px;
+    color : rgb(255, 207, 75);
+}
+
+.nav:hover {
+    color : rgb(91, 152, 213);
+    text-decoration: underline;
+}
+#name {
+    font-family: 'Lobster', cursive;
+}
+

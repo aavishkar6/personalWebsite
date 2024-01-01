@@ -1,0 +1,74 @@
+
+#contacts {
+    padding : 35px 35px 35px 35px;
+    height : 500px;
+    font-family: Roboto;
+    margin-bottom: 70px;
+}
+
+#contacts li {
+    display : flex;
+    
+    margin-bottom : 25px;
+    font-size: 30px;
+    /* color : white; */
+    /* border : 1px solid white; */
+}
+
+#contacts img {
+    width : 50px;
+    height : 40px;
+}
+#contacts li:first-child {
+    margin-top : 50px;
+}
+
+#contacts h1 {
+    color: white; /* Dark color for the heading */
+    margin-bottom: 15px; /* Spacing below the heading */
+}
+
+#contacts ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+#contacts li {
+    margin-bottom: 20px; /* Spacing between list items */
+}
+
+#contacts a {
+    color: white; /* A distinct link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Slightly larger font size for links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#contacts a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color : rgb(90, 88, 88)
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    #contacts {
+        padding: 10px;
+        font-size: 0.9em; /* Slightly smaller font size on smaller screens */
+    }
+
+    #contacts h1 {
+        font-size: 1.5em; /* Adjust heading size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #contacts {
+        padding: 5px;
+        font-size: 0.8em; /* Even smaller font size for very small screens */
+    }
+
+    #contacts h1 {
+        font-size: 1.4em; /* Slightly smaller heading size */
+    }
+}

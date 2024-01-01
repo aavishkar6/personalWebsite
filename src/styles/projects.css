@@ -1,0 +1,38 @@
+
+#projects {
+    /* border : 1px solid red; */
+    padding : 35px 35px 35px 35px;
+    /* height : 00px; */
+}
+
+header h1 {
+    margin-bottom : 70px;
+}
+
+.project-div {
+    display : flex;
+    align-items: top;
+    margin-bottom : 70px;
+
+}
+
+.card {
+    display : inline-block;
+    background-color: rgb(43, 43, 42);
+    color : white;
+    border-radius: 35px;
+    padding: 20px ;
+    margin-right : 70px;
+}
+
+.card *{
+    padding-bottom : 20px;
+    font-size: 18px;
+}
+
+.card .title {
+    font-size : 30px;
+    font-weight : 600;
+    font-family: Roboto;
+}
+
