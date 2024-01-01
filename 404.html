@@ -5,9 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirecting...</title>
   <script>
-    sessionStorage.redirect = location.href;
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get the current URL path
+      const path = window.location.pathname;
+      // Redirect to the root URL, preserving the path
+      if (path && path !== "/") {
+        window.location.replace('/' + path);
+      }
+    });
   </script>
-  <meta http-equiv="refresh" content="0;URL='/'">
 </head>
 <body></body>
 </html>
