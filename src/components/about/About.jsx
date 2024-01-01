@@ -1,7 +1,7 @@
 // import { Badge } from "react-bootstrap";
 
 import '../../styles/about.css';
-import picture from './picture.jpeg';
+import picture from './picture3.jpeg';
 
 function About() {
     return (

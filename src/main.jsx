@@ -14,9 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/personalWebsite" element={<HomePage />} />
+        <Route path="/personalWebsite/about" element={<About />} />
+        <Route path="/personalWebsite/blogs" element={<Blogs />} />
         {/* Other routes */}
       </Routes>
     </Router>
