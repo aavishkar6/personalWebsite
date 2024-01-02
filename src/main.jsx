@@ -12,9 +12,9 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/personalWebsite">
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route exact path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
         {/* Other routes */}
