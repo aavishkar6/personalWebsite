@@ -20,9 +20,9 @@ function Navigation() {
             <Nav.Link href="#contacts" className="nav">Contact Me</Nav.Link>
           </Nav> */}
           <Nav classname="me-auto">
-            <Link to="/personalWebsite" className="nav" id="name">Aavishkar Gautam</Link>
-            <Link to="/personalWebsite/about" className="nav">About Me</Link>
-            <Link to="/personalWebsite/blogs" className="nav">Blog</Link>
+            <Link to="/" className="nav" id="name">Aavishkar Gautam</Link>
+            <Link to="/about" className="nav">About Me</Link>
+            <Link to="/blogs" className="nav">Blog</Link>
             <Link to="#projects" className="nav">Projects</Link>
             <Link to="#contacts" className="nav">Contact Me</Link>
           </Nav>
